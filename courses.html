@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Courses — TradeXcelerate</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-row">
+      <div class="brand">
+        <div class="logo-circle">TX</div>
+        <div><h1 class="logo">TradeXcelerate</h1></div>
+      </div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="courses.html">Courses</a>
+        <a href="https://forms.gle/YOUR_GOOGLE_FORM_URL" target="_blank" class="btn">Enroll Free</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2>Courses</h2>
+
+    <article class="course">
+      <h3>Trading Foundations — Free Starter</h3>
+      <p>10 short lessons covering Volume Spread Analysis (VSA), entries & exits, and risk control.</p>
+      <a class="btn" href="#module-list">Open Course</a>
+
+      <section id="module-list" class="lessons">
+        <h4>Sample lessons</h4>
+        <ol>
+          <li>Intro & Mindset — <a href="https://www.youtube.com/watch?v=VIDEO_ID_1" target="_blank">Watch</a></li>
+          <li>Reading Volume & Price — <a href="https://www.youtube.com/watch?v=VIDEO_ID_2" target="_blank">Watch</a></li>
+          <li>Smart Entries — <a href="https://www.youtube.com/watch?v=VIDEO_ID_3" target="_blank">Watch</a></li>
+          <li>Risk Management — <a href="https://www.youtube.com/watch?v=VIDEO_ID_4" target="_blank">Watch</a></li>
+        </ol>
+
+        <h4>Embedded preview</h4>
+        <div class="video-wrapper">
+          <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/VIDEO_ID_1"
+            title="Lesson preview" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <p><strong>To enroll for updates and live sessions:</strong> <a href="https://forms.gle/YOUR_GOOGLE_FORM_URL" target="_blank">Click here to fill the free enrollment form</a></p>
+      </section>
+    </article>
+  </main>
+
+  <footer class="container site-footer">
+    <p>© <span id="year"></span> TradeXcelerate</p>
+  </footer>
+
+  <script>document.getElementById('year').innerText = new Date().getFullYear();</script>
+</body>
+</html>
